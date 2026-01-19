@@ -19,7 +19,13 @@ export function initWhatsAppForm() {
       `*Novo Contato via Portfólio*\n\n*Assunto:* ${assuntos[assunto]}\n*Mensagem:* ${mensagem}`
     );
 
-    const numeroWhatsApp = '+5594992725562';
+    const numeroWhatsApp = import.meta.env.VITE_WHATSAPP_NUMBER;
+
+    if (!numeroWhatsApp) {
+      console.error('VITE_WHATSAPP_NUMBER não está definido no .env');
+      return;
+    }
+
     window.open(`https://wa.me/${numeroWhatsApp}?text=${textoMensagem}`, '_blank');
 
     form.reset();
