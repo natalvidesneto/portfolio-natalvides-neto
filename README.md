@@ -64,7 +64,7 @@ Crie um arquivo `.env` na raiz:
 
 ```env
 VITE_SITE_NAME=Portfólio Natalvides Neto
-VITE_WHATSAPP_NUMBER=+5594992725562
+VITE_WHATSAPP_NUMBER=SEU_NUMERO_AQUI
 ```
 
 ⚠️ O arquivo `.env` está no `.gitignore` e **não é versionado**.
@@ -89,7 +89,6 @@ VITE_WHATSAPP_NUMBER=+5594992725562
 
 ## 👨‍💻 Autor
 
-**Natalvides Soares de Souza Neto**
-Engenheiro de Software em formação
-Back-end & Front-end Engineering
+**Natalvides Neto**:
+Engenheiro de Software
 

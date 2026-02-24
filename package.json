@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Portfólio profissional desenvolvido com HTML, CSS, JavaScript e Bootstrap.",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
