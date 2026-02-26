@@ -2,7 +2,6 @@
   "name": "portfolio-natalvides-neto",
   "version": "1.0.0",
   "description": "Portfólio profissional desenvolvido com HTML, CSS, JavaScript e Bootstrap.",
-  "main": "index.js",
   "type": "module",
   "directories": {
     "doc": "docs"
@@ -24,7 +23,7 @@
     "vite": "^7.3.1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Natalvides Neto",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.8",
